@@ -4,6 +4,8 @@ use 5.008002;
 use strict;
 use warnings;
 use Mojo::UserAgent;
+use Exporter qw/import/;
+our @EXPORT_OK = qw/wiki_links/;
 
 =head1 NAME
 
@@ -15,7 +17,7 @@ Version 0.01
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 =head1 SYNOPSIS

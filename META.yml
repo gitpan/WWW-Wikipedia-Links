@@ -16,10 +16,10 @@ name: WWW-Wikipedia-Links
 provides:
   WWW::Wikipedia::Links:
     file: lib/WWW/Wikipedia/Links.pm
-    version: 0.01
+    version: 0.02
 requires:
   Mojo: 1.034
   perl: 5.008002
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.02
